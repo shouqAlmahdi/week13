@@ -1,0 +1,51 @@
+body {
+    background-image: url("coffee4.jfif");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.text-center h1 {
+    position: relative;
+    top: 50vh;
+    color: white;
+}
+
+/*
+.text-center img
+{
+    position: relative;
+    top: 45vh;
+    width: 130px;
+    height: 100px;
+}*/
+.btn-dark {
+    /* position: absolute !important;
+    top: 0; */
+    margin-top: -70px;
+}
+
+.modal-header {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.btn-close {
+    background-color: white !important;
+}
+
+.modal-body span {
+    font-weight: 700 !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .footer {
+        left: 0 !important;
+    }
+}
